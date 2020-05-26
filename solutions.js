@@ -25,7 +25,7 @@ var countVowels = function(str){
   if (str.length > 1) {
     count = countVowels(str.substring(1));
   }
-  return count + /[aeiou]/.test(str[0]);
+  return count + /[aeiouy]/.test(str[0]);
 };
 
 ///////////////////////////////////////////////////////////////////////
